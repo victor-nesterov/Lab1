@@ -26,15 +26,12 @@ void Array::typeOfFilling(int input)
         fillWithRandomNumbers();
     else if (input == 2)
         fillUsingKeyboard();
-    if (input == 1 || input == 2)
-    {
-        cout << "Your array: ";
-        print();
-        int input;
-        cout << "Choose an array processing option (4, 5, 7, 10 or 11):" << endl;
-        cin >> input;
-        processElements(input);
-        cout << "New (changed) array: ";
-        print();
-    }
+    else return;
+    cout << "Your array: ";
+    print();
+    cout << "Choose an array processing option (4, 5, 7, 10 or 11):" << endl;
+    cin >> input;
+    processElements(input);
+    cout << "New (changed) array: ";
+    print();
 }
