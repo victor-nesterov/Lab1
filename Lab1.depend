@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1643808379 source:c:\users\victor\documents\cppprojects\lab1\main.cpp
+	<iostream>
+	<random>
+	<ctime>
+	"array.h"
+
+1643723757 c:\users\victor\documents\cppprojects\lab1\array.h
+
+1643808986 source:c:\users\victor\documents\cppprojects\lab1\array.cpp
+	<sstream>
+	<iostream>
+	<random>
+	"array.h"
+
